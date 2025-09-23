@@ -13,7 +13,7 @@ Le site a été conçu sur mesure pour refléter son approche, mettre en avant s
 
 ---
 
-## 🛠️ Stack technique
+## 🛠️ Techno
 - **CMS** : WordPress (installation sur mesure, sans constructeur de pages type Elementor).
 - **Langages** :  
   - PHP  
