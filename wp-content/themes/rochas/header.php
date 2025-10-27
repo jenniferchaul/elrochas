@@ -5,15 +5,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <?php wp_head(); ?>
 
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-1Z2KE1DS9Z"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1Z2KE1DS9Z"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-1Z2KE1DS9Z');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-1Z2KE1DS9Z');
+  </script>
 </head>
 
 <body <?php body_class(); ?>>
@@ -22,7 +24,6 @@
     <div class="container-menu">
       <div class="logo-menu"> <a href="<?= home_url('/') ?>"> <img class="img-logo" src="<?= get_theme_file_uri('assets/images/logob1.png') ?>" alt="Logo Elisabeth Rochas"> </a> </div>
 
-      <!-- Burger manuel -->
       <button class="hamburger" id="burger"
         aria-controls="menu"
         aria-expanded="false"

@@ -13,7 +13,6 @@ get_header();
     <img src="https://picsum.photos/seed/kpe/960/640" width="960" height="640" alt="VaguExpans">
   </div>
 
-  <!-- 1) En-tête + citation courte (unique par rapport à l'accueil) -->
   <section class="about-head">
     <div class="container">
       <p class="headline">«&nbsp;Ne me jugez pas sur mes succès, jugez moi sur combien de fois je suis tombé et je me suis relevé - Nelson Mandela&nbsp;»</p>
@@ -76,7 +75,6 @@ get_header();
       </ul>
     </div>
   </section>
-
 </main>
 
 <?php get_template_part('partials/home-contact.tpl'); ?>

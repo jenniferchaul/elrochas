@@ -26,7 +26,6 @@ add_action('wp_enqueue_scripts', function () {
         THEME_VERSION
     );
 
-    // Google Fonts
     wp_enqueue_style(
         'google-fonts',
         'https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Parisienne&family=Satisfy&display=swap',
@@ -41,7 +40,6 @@ add_action('wp_enqueue_scripts', function () {
         '5.15.4'
     );
 
-    // ✅ AOS (Animation on Scroll)
     wp_enqueue_style(
         'aos-css',
         'https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css',
@@ -64,7 +62,6 @@ wp_add_inline_script('aos-js', 'AOS.init({
     offset: 120,
     easing: "ease-in-out",
 });');
-
 
     wp_enqueue_script(
         'main-js',

@@ -48,7 +48,6 @@ get_header();
           <li><strong>Séance (≈ 1h)</strong> — 80&nbsp;€</li>
         </ul>
       </article>
-
     </div>
   </section>
 

@@ -1,4 +1,3 @@
-<!-- La kinésiologie, en bref -->
 <section class="section section-kinesiologie" id="kinesiologie">
 
   <div class="custom-shape-divider-top-1759328087">

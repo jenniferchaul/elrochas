@@ -13,7 +13,6 @@ get_header();
     <img src="<?= get_theme_file_uri('assets/images/byebye.svg') ?>" alt="image bye bye allergie">
   </div>
 
-
   <section class="about-head">
     <div class="container">
       <p class="headline">«&nbsp;Les émotions inexprimées ne meurent jamais. Elles sont enterrées vivantes et ressortent plus tard sous des formes plus laides - Sigmund Freud&nbsp;»</p>
@@ -42,27 +41,26 @@ get_header();
     </div>
   </section>
 
-<section class="outil-fonctionnement">
-  <div class="container">
-    <h2 data-aos="fade-up" data-aos-delay="40">Comment ça marche&nbsp;?</h2>
+  <section class="outil-fonctionnement">
+    <div class="container">
+      <h2 data-aos="fade-up" data-aos-delay="40">Comment ça marche&nbsp;?</h2>
 
-    <article class="block" data-aos="fade-up" data-aos-delay="45">
-      <h3>Identification des allergènes</h3>
-      <p>Test musculaire (kinésiologie) pour repérer les substances réactives. La séance se déroule habillé, allongé.</p>
-    </article>
+      <article class="block" data-aos="fade-up" data-aos-delay="45">
+        <h3>Identification des allergènes</h3>
+        <p>Test musculaire (kinésiologie) pour repérer les substances réactives. La séance se déroule habillé, allongé.</p>
+      </article>
 
-    <article class="block" data-aos="fade-up" data-aos-delay="50">
-      <h3>Traitement énergétique</h3>
-      <p>Acupression sur des points clés pour rétablir l’équilibre perturbé par l’allergène.</p>
-    </article>
+      <article class="block" data-aos="fade-up" data-aos-delay="50">
+        <h3>Traitement énergétique</h3>
+        <p>Acupression sur des points clés pour rétablir l’équilibre perturbé par l’allergène.</p>
+      </article>
 
-    <article class="block" data-aos="fade-up" data-aos-delay="55">
-      <h3>Réintégration</h3>
-      <p>Période d’éviction — en général 25&nbsp;h — pour permettre au corps d’intégrer le traitement.</p>
-    </article>
-  </div>
-</section>
-
+      <article class="block" data-aos="fade-up" data-aos-delay="55">
+        <h3>Réintégration</h3>
+        <p>Période d’éviction — en général 25&nbsp;h — pour permettre au corps d’intégrer le traitement.</p>
+      </article>
+    </div>
+  </section>
 
   <section class="outil-avantages" data-aos="fade-up" data-aos-delay="60">
     <div class="container">
@@ -88,7 +86,6 @@ get_header();
       <p class="link"><a href="https://www.bba-byebyeallergies.org/" target="_blank" rel="noopener">Site officiel BBA</a></p>
     </div>
   </section>
-
 </main>
 
 <?php get_template_part('partials/home-contact.tpl'); ?>

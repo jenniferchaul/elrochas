@@ -115,10 +115,8 @@
     }
 }
 
-// Couleur souhaitée pour la wave sur la page Contact
 $contact-wave: rgb(249 248 248);
 
-// La section .contact-page est suivie du footer → on cible la wave du footer
 .politique-de-confidentialité~.site-footer .footer-wave .wave-fill {
     fill: $contact-wave !important;
 }

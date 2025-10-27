@@ -1,4 +1,3 @@
-/* ---------- Header global ---------- */
 header {
   top: 0;
   z-index: 50;
@@ -6,7 +5,6 @@ header {
   background: $background;
 }
 
-/* conteneur header */
 .container-menu {
   display: flex;
   align-items: center;
@@ -15,14 +13,12 @@ header {
   padding: 1rem;
 }
 
-/* logo */
 .logo-menu .img-logo {
   width: 18rem;
   max-width: 100%;
   display: block;
 }
 
-/* ========== MENU BURGER ========== */
 .hamburger {
   width: 40px;
   height: 40px;
@@ -73,7 +69,6 @@ header {
   bottom: auto;
 }
 
-/* overlay mobile */
 .menu {
   position: fixed;
   top: 210px;
@@ -122,7 +117,6 @@ header {
         color: $terracotta;
       }
 
-      /* trait primary au hover */
       &::after {
         content: "";
         position: absolute;
@@ -155,7 +149,6 @@ header {
       }
     }
 
-    /* SOUS-MENU MOBILE */
     &.has-submenu {
       width: 100%;
 
@@ -231,7 +224,6 @@ header {
   }
 }
 
-/* ---------- Barre d'icônes fixe (social dock) ---------- */
 .social-dock {
   position: fixed;
   left: 0;
@@ -273,13 +265,10 @@ header {
   }
 }
 
-/* ---------- Utilitaires ---------- */
 body.noscroll {
   overflow: hidden;
 }
 
-
-/* ====== DESKTOP ====== */
 @media (min-width: 980px) {
   .container-menu {
     padding: 0 1.5rem;
@@ -297,7 +286,6 @@ body.noscroll {
     display: none;
   }
 
-  /* RESET complet des styles "overlay" pour le desktop */
   .menu {
     position: static;
     top: auto;
@@ -321,11 +309,9 @@ body.noscroll {
       gap: 1.5rem;
     }
 
-    /* SOUS-MENU DESKTOP */
     .menu-item.has-submenu {
       position: relative;
 
-      /* Zone invisible pour combler l'espace */
       &::after {
         content: '';
         position: absolute;
@@ -355,7 +341,6 @@ body.noscroll {
         }
       }
 
-      /* Dropdown au hover sur desktop */
       .submenu {
         display: flex;
         flex-direction: column;
@@ -389,7 +374,6 @@ body.noscroll {
         }
       }
 
-      /* Affichage au hover */
       &:hover {
         .submenu {
           opacity: 1;
@@ -405,7 +389,6 @@ body.noscroll {
     }
   }
 
-  /* social dock vertical à droite */
   .social-dock {
     left: auto;
     right: .75rem;

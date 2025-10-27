@@ -12,7 +12,6 @@ get_header();
     <img src="<?= get_theme_file_uri('assets/images/reequilibrage.svg') ?>" alt="image kinésio">
   </div>
 
-  <!-- 1) En-tête + citation courte (unique par rapport à l'accueil) -->
   <section class="about-head">
     <div class="container">
       <p class="headline">«&nbsp;Ce qui ne vient pas à la conscience revient sous forme de destin - Carl Jung&nbsp;»</p>
