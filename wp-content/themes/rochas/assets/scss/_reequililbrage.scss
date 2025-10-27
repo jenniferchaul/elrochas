@@ -1,0 +1,94 @@
+.outil-page.outil-neuro-bioenergie {
+    background: $background;
+    font-family: $montserrat;
+    color: rgba($black, .9);
+
+    .img-page {
+        display: flex;
+        justify-content: center;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .container {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 0 1.25rem;
+    }
+
+    .outil-hero {
+        padding: 1.5rem 0 .5rem;
+
+        h1 {
+            margin: 0 0 1rem 0;
+            font-size: 34px;
+            text-transform: uppercase;
+            text-align: center;
+            line-height: 1.2;
+        }
+
+        .lede {
+            margin: 0;
+            color: rgba($black, .75);
+            line-height: 1.6;
+        }
+    }
+
+    .outil-intro {
+        padding: 1rem 0;
+
+        p {
+            margin: 0 0 .6rem;
+            line-height: 1.6;
+        }
+    }
+
+    .outil-profondeur {
+        padding: .5rem 0 1rem;
+
+        h2 {
+            margin: 0 0 .5rem;
+            line-height: 1.2;
+
+        }
+
+        p {
+            margin: 0 0 .6rem;
+            line-height: 1.6;
+        }
+    }
+
+    .outil-note {
+        padding: .25rem 0 1.5rem;
+
+        .disclaimer {
+            font-size: .95rem;
+            color: rgba($black, .7);
+            line-height: 1.2;
+        }
+    }
+
+}
+
+@media (min-width:900px) {
+    .outil-page.outil-neuro-bioenergie {
+
+        .outil-hero h1 {
+            font-size: 50px;
+        }
+
+        .outil-profondeur {
+            h2 {
+                margin: 2rem 0;
+            }
+        }
+
+        .img-page {
+            img {
+                width: 28%
+            }
+        }
+    }
+}

@@ -1,0 +1,91 @@
+.tarifs-page {
+    background: $background;
+    font-family: $montserrat;
+    color: rgba($black, .9);
+
+    p {
+        line-height: 1.6;
+    }
+
+    .container {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 0 1.25rem;
+    }
+
+    .tarifs-hero {
+        padding: 1.5rem 0 .5rem;
+
+        h1 {
+            margin: 0 0 1rem;
+            font-size: 34px;
+            text-transform: uppercase;
+            text-align: center;
+            line-height: 1.2;
+        }
+
+        .lede {
+            margin: 0;
+            color: rgba($black, .75);
+        }
+    }
+
+    .tarifs-grid {
+        padding: 1rem 0 1.25rem;
+
+        .card {
+            background: #fff;
+            border: 1px solid rgba($black, .08);
+            border-radius: 16px;
+            padding: 1rem 1rem;
+            box-shadow: 0 10px 22px rgba($black, .05);
+
+            &+.card {
+                margin-top: .8rem;
+            }
+
+            h2 {
+                margin: 0 0 .4rem;
+                font-size: 1.15rem;
+                color: $terracotta;
+            }
+
+            .lines {
+                margin: 0;
+                padding-left: 1rem;
+
+                li {
+                    margin: .35rem 0;
+                    line-height: 1.7;
+
+                    .sub {
+                        display: block;
+                        font-size: .92rem;
+                        color: rgba($black, .7);
+                    }
+                }
+            }
+        }
+    }
+
+    .tarifs-note {
+        padding: .25rem 0 1.5rem;
+
+        .disclaimer {
+            font-size: .95rem;
+            color: rgba($black, .7);
+        }
+    }
+
+    @media (min-width:900px) {
+        .tarifs-grid .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+
+        .tarifs-grid .card+.card {
+            margin-top: 0;
+        }
+    }
+}

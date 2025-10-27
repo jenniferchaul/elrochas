@@ -1,0 +1,172 @@
+.outil-page.outil-vaguexpans {
+    background: $background;
+    font-family: $montserrat;
+    color: rgba($black, .9);
+
+    .img-page {
+        display: flex;
+        justify-content: center;
+
+        img {
+            width: 27rem;
+            height: 13rem;
+        }
+    }
+
+    .container {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 0 1.25rem;
+    }
+
+    .outil-hero {
+
+        h1 {
+            margin: 0 0 1rem 0;
+            font-size: 34px;
+            text-transform: uppercase;
+            text-align: center;
+            line-height: 1.2;
+        }
+
+        .lede {
+            margin: 0;
+            color: rgba($black, .75);
+            line-height: 1.6;
+        }
+    }
+
+    .outil-intro {
+        padding: 1rem 0;
+
+        p {
+            margin: 0 0 .6rem;
+            line-height: 1.7;
+        }
+    }
+
+    .outil-bienfaits {
+        padding: .5rem 0;
+
+        h2 {
+            margin: 0 0 .5rem;
+        }
+
+        .check {
+            margin: 0;
+            padding-left: 1rem;
+            line-height: 1.6;
+
+            li {
+                list-style: "✓ ";
+                margin: .25rem 0;
+            }
+        }
+    }
+
+    .outil-deroule {
+        padding: .5rem 0;
+
+        h2 {
+            margin: 0 0 .5rem;
+        }
+
+        .steps {
+            margin: 0;
+            padding-left: 1rem;
+            line-height: 1.6;
+
+            li {
+                margin: .25rem 0;
+            }
+        }
+
+        .note {
+            margin: .5rem 0 0;
+            color: rgba($black, .75);
+            line-height: 1.6;
+        }
+    }
+
+    .outil-pourqui {
+        padding: .5rem 0;
+
+        h2 {
+            margin: 0 0 .5rem;
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: .5rem;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+
+            li {
+                background: rgba($terracotta, .06);
+                border: 1px solid rgba($terracotta, .35);
+                border-radius: 999px;
+                padding: .4rem .75rem;
+            }
+        }
+    }
+
+    .outil-ci {
+        padding: .5rem 0 1.5rem;
+
+        h2 {
+            margin: 0 0 .5rem;
+        }
+
+        .no {
+            margin: 0;
+            padding-left: 1rem;
+            line-height: 1.6;
+
+            li {
+                list-style: "— ";
+                margin: .25rem 0;
+            }
+        }
+    }
+}
+
+@media (min-width:900px) {
+
+    .outil-page.outil-vaguexpans {
+
+        .outil-hero h1 {
+            font-size: 50px;
+        }
+
+        .outil-bienfaits {
+            h2 {
+                margin: 2rem 0;
+            }
+        }
+
+        .outil-deroule {
+            h2 {
+                margin: 2rem 0;
+            }
+        }
+
+        .outil-pourqui {
+            h2 {
+                margin: 2rem 0;
+            }
+
+            .tags {
+                flex-wrap: nowrap;
+                white-space: nowrap;
+            }
+        }
+
+        .outil-ci {
+            h2 {
+                margin: 2rem 0;
+            }
+        }
+    }
+}
